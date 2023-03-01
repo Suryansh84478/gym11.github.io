@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://source.unsplash.com/1600x900/?gym');
+    background-size: cover;
+    background-position: center;
+    height: 500px
+}
+
+.hero-text {
+    padding: 100px;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3E8E41;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Services Section Styles */
+.services {
+    background-color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services li {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Contact Section Styles */
+.contact {
+    background-color: #333;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    display: block;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.contact input,
+.contact textarea {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.contact button:hover {
+    background-color: #3E8E41;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Welcome to Our Gym</h1>
+            <p>Join our gym today and take the first step towards a healthier you!</p>
+            <a href="#" class="btn">Join Now</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae diam ut leo finibus vulputate.
+            Duis porta dolor vel velit dapibus, ut suscipit odio feugiat. Sed fermentum, ante non vulputate consequat,
+            mauris nisl sodales mauris, a fringilla enim nulla id ex. Sed blandit luctus diam, eu aliquam dolor sagittis
+            sit amet.</p>
+        <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personal Training</li>
+            <li>Group Classes</li>
+            <li>Cardio Equipment</li>
+            <li>Weight Lifting Equipment</li>
+        </ul>
+        <a href="#" class="btn">View All Services</a>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Gym Website</p>
+    </footer>
+</body>
+
+</html>
+    
+</body>
+</html>
